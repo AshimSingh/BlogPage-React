@@ -1,0 +1,45 @@
+@keyframes motion {
+    0%{
+        right: 60%;
+    }
+    25%{
+        right: 50%;
+    }
+    50%{
+        right: 40%;
+    }
+    75%{
+        right: 35%;
+    }
+    100%{
+        right: 30%;
+    }
+}
+
+.bg-circle{
+    background: #c3d9e6;
+    height: 2000px;
+    width: 2000px;
+    border-radius: 50%;
+    position: absolute;
+    
+    /* bottom: 76%; */
+    right: 30%;
+    z-index: -5;
+    animation: motion 2s linear;
+    
+}
+
+
+
+@media(max-width:764px){
+    .bg-circle{
+        height: 1000px;
+        width: 1000px;
+        background: #b8e3;
+        right: 20%;
+        left: 0%;
+        top: 30%;
+        
+    }
+}

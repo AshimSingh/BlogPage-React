@@ -1,0 +1,10 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.custom-label {
+    font-size: 80px; /* Adjust the font size here */
+}
+.blog_div .ck-editor__editable {
+    min-height: 400px;
+}
